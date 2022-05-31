@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+
+        <style>
+            table, th, td,h1 {
+              border: 1px solid black;
+              margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+              font-family: Impact, Charcoal, sans-serif;
+              font-size: 150%;
+            }
+            th {
+                color: White;
+            }
+            h1 {
+                color: White;
+                font-family: Impact, Charcoal, sans-serif;
+            }
+
+
+            body {
+                background-color: blueviolet;
+                }
+        </style>
+        <script src="retrieve.js"></script> 
+        
+        <link rel="stylesheet" href="style.css" /> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1.0" /> 
+        <title>index</title> 
+    </head> 
+    <body> 
+        
+        <!-- Here a loader is created which  
+             loads till response comes -->
+        <div class="d-flex justify-content-center"> 
+            <div class="spinner-border" 
+                 role="status" id="loading"> 
+                <span class="sr-only">Loading...</span> 
+            </div> 
+        </div> 
+        <i class="fas fa-car-side"  style="font-size:36px"></i>
+        <h1 style="text-align:center">PSI TABLE</h1>
+        
+        <!-- table for showing data -->
+        <table id="table" >
+            
+        </table> 
+        <h1 id="timestamp"></h1>
+    </body> 
+</html> 
